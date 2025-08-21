@@ -14,7 +14,7 @@ function page() {
 
             <div className='bg-[#1d4d4f]  rounded-lg flex gap-4 border'>
               <div className='flex flex-row'>
-                <Image className='inline-block'
+                <Image
                 src="/web page 1.png"
                 width={200}
                 height={150}
@@ -58,7 +58,49 @@ function page() {
         </div>
 
         <h3 className='mt-10 font-semibold'>Client Testimonials</h3>
+        <div className='mb-12'>
+        <div className='mt-6 space-y-6'>
+            <div className='flex flex-row mb-0'>
+              <Image 
+                src="/Ellipse 9.png"
+                width={50}
+                height={50}
+              />
+              <div className='px-5'>
+                <h4 className="font-semibold">Nadun Perera
+                <p className="text-400 text-sm ">2025-02-13</p>
+                </h4>   
+              </div>
+            </div>
+              <p className="text-green-400 mt-1 text-4xl mb-1">★★★★★</p>
+              <p>Code Experts transformed our online store. The new platform is user-friendly and has significantly boosted our sales. Their team was professional and responsive throughout the entire process.</p>
+          </div>
+        </div>
+        <div className='mb-12'></div>
+          <div className='mt-6 space-y-6'>
+            <div className='flex flex-row mb-0'>
+              <Image 
+                src="/Ellipse 10.png"
+                width={50}
+                height={50}
+              />
+              <div className='px-5'>
+                <h4 className="font-semibold">Sahan Ratnayake
+                <p className="text-400 text-sm ">2025-01-05</p>
+                </h4>   
+              </div>
+            </div>
+              <p className="text-green-400 mt-1 text-4xl mb-1">★★★★★</p>
+              <p>The cloud migration was seamless, and we’ve seen a remarkable improvement in our system’s performance. Code
+                  Experts expertise in cloud solutions is unmatched.</p>
+          </div>
+          <div className='mt-6 ml-5 text-2xl'>
+            <p>See More</p>
+          </div>
+        
+
     </div>
+    
   )
 }
 
