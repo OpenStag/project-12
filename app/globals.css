@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body,html {
+  background-color: #002025;
+  margin: 0;
+  padding: 0;
+  margin: 10px;
+}
+
+header{
+  width: 100%;
+}
+
+nav{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap: 50px;
+}
+
+.logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo h1{
+  margin-right: 20px;
+}
+
+.logo img{
+  width: 36px;
+  height: 27.25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav a:active{
+  text-decoration: underline;
+}
+
+nav li{
+  display: inline;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.card{
+  width: 1100px;
+  display: flex;
+  color: white;
+  margin: 50px;
+}
+
+.card img{
+  width: 428px;
+  height: 224px;
+  margin-left: 75px;
+  margin-right: 75px;
+  position: absolute;
+  right: 0;
+}
+
+.text{
+  width: 816px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.text p{
+  color: rgb(159, 161, 159);
+  font-size: 1em;
+}
+
+.my-10{
+  padding-bottom: 50px;
+}
+
+.button {
+  font-weight: bold;
+  color: #021e7a;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  margin: 50px;
+  width: 260px;
+  height: 42px;
+  background: linear-gradient(117deg, rgba(191, 187, 187, 1) 0%, rgba(22, 133, 113, 1) 70%);
+  background-size: 200% 100%;
+  background-position: left;
+  transition: background-position 1.2s ease;
+}
+
+.button:hover {
+  background-position: right;
+}
+
+.cat{
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.flex{
+  padding: 0px;
+}
+
+.search {
+  position: relative;
+  margin: 50px;
+}
+
+.search input {
+  background-color: #aec3d3;
+  font-size: 2em;
+  border-radius: 5px;
+  width: 1056px;
+  height: 55px;
+  padding-left: 50px; 
+  padding-right: 10px;
+}
+
+.search img {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 29px;
+}
+
+.hero{
+  margin: 50px;
+  display: flex;
+  color: white;
+}
+
+.hero .hero_text{
+  margin-left: 25px;
+}
+
+.hero_text h2{
+  font-size: 2em;
+}
+
+.hero_text .p1,.p2{
+  color: rgb(137, 135, 135);
+  font-size: 1.2em;
+  line-height: 10px;
+}
+
+.contact{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo1 h2,.logo2 h2,.logo3 h2{
+  color: white;
+  font-size: 15px;
+}
+
+.footer{
+  color: rgb(168, 165, 165);
+  font-size: 0.7em;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer h2{
+  margin: 50px;
+}
+
+.contact img{
+  width: 62px;
+  height: 62px;
+}
+
+.footer-copyR{
+  color: rgb(171, 172, 173);
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
