@@ -1,11 +1,14 @@
 import Link from "next/link"
+
 export default function Header(){
     return(
     <header>
       <nav>
         <div className='logo'>
-        <img src="logo.png" alt='page logo' className='logo'></img>
-        <h1 className="font-['Josefin_Sans']">Code Expert</h1>
+          <a href="#">
+            <img src="image.png" alt="page logo" className="logo" />
+          </a>
+        {/* <h1 className="font-josefin text-3xl">Code Expert</h1> */}
         </div>
         <ul>
           <li><Link href="#" className="text-white hover:text-[rgba(15,255,83,0.45)] hover:underline duration-300 ease-in">About Us</Link></li>
