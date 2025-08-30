@@ -5,8 +5,6 @@ const markoOne = Marko_One({ subsets: ["latin"], weight: "400", variable: "--fon
 export default function Home() {
   return (
       <div className=" text-white min-h-screen">
-      
-
       {/* Hero Section */}
       <section className="relative w-full h-[650px] flex items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: "url('/Home.jpg')" }}>
