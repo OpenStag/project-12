@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactUs = () => {
   return (
@@ -7,21 +7,42 @@ const ContactUs = () => {
         {/* Contact Us Form */}
         <div className="bg-[#24353c] p-8 rounded-lg mb-8">
           <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
-          <p className="text-gray-400 mb-6">We're here to help. Reach out to us with any questions or inquiries.</p>
+          <p className="text-gray-400 mb-6">
+            We're here to help. Reach out to us with any questions or inquiries.
+          </p>
           <form className="space-y-4">
             <div>
-              <input type="text" placeholder="Your Name" className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500" />
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500"
+              />
             </div>
             <div>
-              <input type="email" placeholder="Your Email" className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500" />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500"
+              />
             </div>
             <div>
-              <input type="text" placeholder="Subject" className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500" />
+              <input
+                type="text"
+                placeholder="Subject"
+                className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500"
+              />
             </div>
             <div>
-              <textarea rows="4" placeholder="Your Message" className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+              <textarea
+                rows="4"
+                placeholder="Your Message"
+                className="w-full p-3 bg-[#1e2a30] text-white rounded-md placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500"
+              ></textarea>
             </div>
-            <button type="submit" className="w-full bg-[#1c8a77] text-white font-bold py-3 rounded-md hover:bg-[#156e5f] transition-colors">
+            <button
+              type="submit"
+              className="w-full bg-[#1c8a77] text-white font-bold py-3 rounded-md hover:bg-[#156e5f] transition-colors"
+            >
               Send Message
             </button>
           </form>
@@ -44,7 +65,6 @@ const ContactUs = () => {
             ></iframe>
           </div>
         </div>
-
       </div>
     </div>
   );

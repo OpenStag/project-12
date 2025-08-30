@@ -1,16 +1,24 @@
-{/* Navbar */}
-      <nav className="flex justify-between items-center px-8 py-4 bg-gray-800">
-        <div className="flex items-center space-x-2">
-          <div className="w-5 h-4 bg-white rounded-full bg-cover bg-center" style={{ backgroundImage: "url('/logo.png')" }}></div>
-          <span className="font-bold text-lg">Code Experts</span>
-        </div>
-        <div className="flex items-center space-x-8">
-          <a href="#" className="hover:text-teal-400">About Us</a>
-          <a href="#" className="hover:text-teal-400">Contact Us</a>
-          <a href="#" className="hover:text-teal-400">Home</a>
-          <a href="#" className="hover:text-teal-400">Join Team</a>
-          <a href="#" className="hover:text-teal-400">Services</a>
-          <a href="#" className="hover:text-teal-400">Solutions</a>
-          <a href="#" className="hover:text-teal-400">Resources</a>
+import React from "react";
+
+const Navigation: React.FC = () => (
+      <nav className="bg-slate-900 px-6 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center space-x-2">
+            <div className="w-6 h-6 bg-emerald-500 transform rotate-45"></div>
+            <span className="text-xl font-bold">Code Experts</span>
+          </div>
+          
+          <div className="hidden md:flex space-x-8">
+            <a href="aboutus" className="hover:text-emerald-400 transition-colors">About Us</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Contact Us</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Home</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Join Team</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Services</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Solutions</a>
+            <a href="#" className="hover:text-emerald-400 transition-colors">Resources</a>
+          </div>
         </div>
       </nav>
+);
+
+export default Navigation;
