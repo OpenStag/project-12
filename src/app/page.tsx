@@ -1,9 +1,9 @@
-import ContactUs from '../components/contactus';
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <ContactUs />
+      <Link href='/contactus'>contact us</Link>
+      
     </div>
   );
 }
