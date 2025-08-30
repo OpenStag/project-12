@@ -6,7 +6,7 @@ export default function Home() {
    className="relative flex flex-col items-center justify-center 
              h-[450px] w-[900px] mx-auto rounded-2xl 
              bg-cover bg-center text-center px-6 backdrop-blur-md 
-               border border-transparent shadow-[0_0_20px_rgba(0,0,0,1)]"
+               border border-transparent shadow-[0_0_20px_rgba(0,0,0,1npm )]"
   style={{
     backgroundImage: "url('/background.jpg')",
   }}
